@@ -54,5 +54,10 @@ namespace ProyectoEquipo3_1
                 MessageBox.Show(mensaje);
             }
         }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

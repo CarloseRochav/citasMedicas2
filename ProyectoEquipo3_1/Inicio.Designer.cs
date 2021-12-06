@@ -49,25 +49,28 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(183, 175);
+            this.textBox1.Location = new System.Drawing.Point(274, 269);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 20);
+            this.textBox1.Size = new System.Drawing.Size(206, 26);
             this.textBox1.TabIndex = 8;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(183, 302);
+            this.textBox2.Location = new System.Drawing.Point(274, 465);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(139, 20);
+            this.textBox2.Size = new System.Drawing.Size(206, 26);
             this.textBox2.TabIndex = 12;
             // 
             // pictureBox5
             // 
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::ProyectoEquipo3_1.Properties.Resources.button_ingresar__1_;
-            this.pictureBox5.Location = new System.Drawing.Point(171, 337);
+            this.pictureBox5.Location = new System.Drawing.Point(256, 518);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(163, 53);
+            this.pictureBox5.Size = new System.Drawing.Size(244, 82);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox5.TabIndex = 106;
             this.pictureBox5.TabStop = false;
@@ -76,9 +79,10 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::ProyectoEquipo3_1.Properties.Resources.coollogo_com_61431265;
-            this.pictureBox3.Location = new System.Drawing.Point(116, 123);
+            this.pictureBox3.Location = new System.Drawing.Point(174, 189);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(275, 70);
+            this.pictureBox3.Size = new System.Drawing.Size(412, 108);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 11;
             this.pictureBox3.TabStop = false;
@@ -87,9 +91,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::ProyectoEquipo3_1.Properties.Resources.coollogo_com_153001462;
-            this.pictureBox1.Location = new System.Drawing.Point(136, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(204, 18);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(240, 52);
+            this.pictureBox1.Size = new System.Drawing.Size(360, 80);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
@@ -99,9 +104,10 @@
             this.panel1.BackgroundImage = global::ProyectoEquipo3_1.Properties.Resources._3122;
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Location = new System.Drawing.Point(0, -1);
+            this.panel1.Location = new System.Drawing.Point(0, -2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(506, 100);
+            this.panel1.Size = new System.Drawing.Size(759, 154);
             this.panel1.TabIndex = 13;
             // 
             // pictureBox4
@@ -109,20 +115,23 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::ProyectoEquipo3_1.Properties.Resources._4;
-            this.pictureBox4.Location = new System.Drawing.Point(464, 3);
+            this.pictureBox4.Location = new System.Drawing.Point(696, 5);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(39, 38);
+            this.pictureBox4.Size = new System.Drawing.Size(58, 58);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 14;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::ProyectoEquipo3_1.Properties.Resources.txtAccesoSistema;
-            this.pictureBox2.Location = new System.Drawing.Point(65, 19);
+            this.pictureBox2.Location = new System.Drawing.Point(98, 29);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(381, 78);
+            this.pictureBox2.Size = new System.Drawing.Size(572, 120);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
@@ -132,16 +141,17 @@
             this.panel2.BackgroundImage = global::ProyectoEquipo3_1.Properties.Resources.D_NQ_NP_799735_MLM41954188949_052020_O;
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(-4, 99);
+            this.panel2.Location = new System.Drawing.Point(-6, 152);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(510, 311);
+            this.panel2.Size = new System.Drawing.Size(765, 478);
             this.panel2.TabIndex = 111;
             // 
             // Inicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 410);
+            this.ClientSize = new System.Drawing.Size(756, 631);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -149,6 +159,7 @@
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema De Citas Medicas";

@@ -21,5 +21,10 @@ namespace ProyectoEquipo3_1
         {
 
         }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

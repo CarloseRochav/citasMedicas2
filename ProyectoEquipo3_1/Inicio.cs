@@ -16,5 +16,10 @@ namespace ProyectoEquipo3_1
         {
             InitializeComponent();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Close();//Cerrar form o ventana actual
+        }
     }
 }
